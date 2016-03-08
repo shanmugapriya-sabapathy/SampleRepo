@@ -1,0 +1,12 @@
+# Login Page Objects
+
+txt_UserName=.//*[@id='user']
+txt_Password=.//*[@id='password']
+btn_Login=.//*[@id='signin']
+
+
+# Home Page Objects
+
+btn_Project=//div[3]/div/ul/li[contains(@class,'projbox ng-scope')]//span[contains(text(),'test north america')]
+btn_UserIcon=//ul[2]//button[contains(@title,'shanmugapriya_sabapathy@trimble.com')]
+btn_SignOut=//ul[2]//ul/li[4]/a[contains(text(),'Sign out')]
